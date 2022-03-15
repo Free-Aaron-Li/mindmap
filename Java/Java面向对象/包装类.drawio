@@ -1,0 +1,65 @@
+<mxfile host="65bd71144e">
+    <diagram id="VlBkPw-8Nv4IJ6_dgMg8" name="第 1 页">
+        <mxGraphModel dx="684" dy="1790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="27" style="edgeStyle=none;shape=connector;curved=1;rounded=1;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#d79b00;fillColor=#ffcd28;gradientColor=#ffa500;" edge="1" parent="1" source="2" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;shape=connector;curved=1;rounded=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#d79b00;fillColor=#ffcd28;gradientColor=#ffa500;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 18px&quot;&gt;基本数据类型&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;shape=connector;curved=1;rounded=1;sketch=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#d79b00;fillColor=#ffcd28;gradientColor=#ffa500;" edge="1" parent="1" source="5" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=none;shape=connector;curved=1;rounded=1;sketch=1;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#d79b00;fillColor=#ffcd28;gradientColor=#ffa500;" edge="1" parent="1" source="5" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;p&gt;&lt;font style=&quot;font-size: 18px&quot; color=&quot;#000000&quot;&gt;包装类&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;shape=connector;curved=1;rounded=1;sketch=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.382;entryY=1.037;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#d79b00;fillColor=#ffcd28;gradientColor=#ffa500;" edge="1" parent="1" source="11" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;shape=connector;curved=1;rounded=1;sketch=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.378;entryY=1.023;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#d79b00;fillColor=#ffcd28;gradientColor=#ffa500;" edge="1" parent="1" source="11" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="String类" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=18;fontColor=#000000;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="1.调用相应的包装类的parseXxx(String)静态方法。&lt;br&gt;2.通过包装类构造器：boolean b=new Boolean(&quot;true&quot;)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="250" width="140" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;span&gt;1.包装类对象的toString()方法。&lt;/span&gt;&lt;br&gt;&lt;span&gt;2.调用包装类的toString(形参）方法。&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="250" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;shape=connector;curved=1;rounded=1;sketch=1;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#d79b00;fillColor=#ffcd28;gradientColor=#ffa500;" edge="1" parent="1" source="21">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="410" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="装箱：&lt;br&gt;1.通过构造器：Integer t=new Integer(11);&lt;br&gt;2.通过字符串参数：Float f=new Float(&quot;32.1F&quot;);&lt;br&gt;3.自动装箱" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="40" width="140" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="拆箱：&lt;br&gt;1.通过包装类的方法：xxxValue();&lt;br&gt;2.自动拆箱" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;shape=connector;curved=1;rounded=1;sketch=1;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;strokeColor=#d79b00;fillColor=#ffcd28;gradientColor=#ffa500;" edge="1" parent="1" source="23">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="220" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="1.String类的ValueOf（3.4）方法&lt;br&gt;2.23.4+&quot;&quot;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="390" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;h1&gt;总结：基本类型、包装类与String类间的转换&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="10" width="480" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
